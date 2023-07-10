@@ -13,7 +13,7 @@
 a {
     text-decoration: none;
     color: rgb(110, 110, 110);
-    font-size: 13px;
+    font-size: 12px;
     padding: 1rem;
 
 }
@@ -22,9 +22,15 @@ body {
     font-family: Open sans;
 }
 
+.container {
+    max-width: 1170px;
+    margin: auto;
+    width: 80%;
+    padding: 1rem 0;
+}
 
 
-/*header*/
+/*#region header*/
 
 nav {
     justify-content: center;
@@ -50,3 +56,53 @@ nav {
     padding: 0.5rem 1rem;
 }
 
+/*#endregion header*/
+
+/*#region main*/
+
+.introduction {
+    background-color: #b4d0e7;
+    height: 85vh;
+    
+}
+
+.p-1 {
+    margin: 0rem 10rem;
+}
+
+.col_small {
+    width: 30%;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.col_big {
+    width: 70%;
+    
+}
+
+.example {
+    width: 85%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+h1 {
+    font-size: 3.8rem;
+    padding: 2rem;
+}
+
+p, span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gratis {
+    background-color: #0160ff;
+    color: white;
+    font-size: 13px;
+    margin: 2rem 0;
+    
+}
