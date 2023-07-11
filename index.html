@@ -73,8 +73,12 @@
             <section>
                 <div class="container">
                     <h2>Trova il piano business che fa per te</h2>
-                    <input type="radio">Fatturazione mensile
-                    <input type="radio">Fatturazione annuale
+                    <form action="#">
+                        <input type="radio" name="mensile" id="mensile">
+                        <label for="mensile">Fatturazione mensile</label>
+                        <input type="radio" name="annuale" id="annuale">
+                        <label for="annuale">Fatturazione annuale</label>
+                    </form>
                     <div class="row d-flex">
 
                         <div class="col-4">
@@ -117,16 +121,16 @@
                                 <div class="buy">
                                     oppure <a href="#">acquista ora</a>
                                 </div>
-                                <hr>
+                                <div class="spacer"></div>
                                 <h4>Punti Salienti del piano</h4>
                                 <ul class="list-unstyled">
                                     <li>
-                                        <span class="check">&#10003;</span>
+                                        <i class="fa-sharp fa-solid fa-check"></i>
                                         Invia file fino a 100 GB con <br> Dropbox
                                         Transfert
                                     </li>
                                     <li>
-                                        <span class="check">&#10003;</span>
+                                        <i class="fa-sharp fa-solid fa-check"></i>
                                         Invia file fino a 100 GB con Dropbox
                                         Transfert
                                     </li>
@@ -137,35 +141,34 @@
                         </div>
                         <div class="col-4">
                             <div class="head_col">
-                                <i class="fa-solid fa-user"></i>
-                                Singolo
+                                <i class="fa-solid fa-users"></i>
+                                Team
                             </div>
                             <div class="main_col">
                                 <h3>Professional</h3>
                                 <div class="price">
-                                    € 12.00
+                                    € 18.00
                                 </div>
 
                                 <div class="period">/mese</div>
                                 <div class="info d-flex">
                                     <div>
-                                        <i class="fa-solid fa-user"></i>
+                                        <i class="fa-solid fa-users"></i>
                                     </div>
-                                    <div>1 utente</div>
+                                    <div>3 o piu utenti</div>
                                 </div>
                                 <div class="info d-flex">
                                     <div>
                                         <i class="fa-solid fa-folder"></i>
                                     </div>
-                                    <div>5 TB di spazio di archiviazione <br>
-                                        sicuro</div>
+                                    <div>Tutto lo spazio di cui ha bisogno il tuo team
+                                    </div>
                                 </div>
                                 <div class="info d-flex">
                                     <div>
                                         <i class="fa-solid fa-share-nodes"></i>
                                     </div>
-                                    <div>Funzioni di produttività premium e
-                                        condivisione file semplice e <br> sicura</div>
+                                    <div>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del <br> tuo team</div>
                                 </div>
                                 <div>
                                     <a class="prova" href="#">Prova gratis per 30
@@ -175,18 +178,28 @@
                                 <div class="buy">
                                     oppure <a href="#">acquista ora</a>
                                 </div>
-                                <hr>
+                                <div class="spacer"></div>
                                 <h4>Punti Salienti del piano</h4>
                                 <ul class="list-unstyled">
                                     <li>
-                                        <span class="check">&#10003;</span>
-                                        Invia file fino a 100 GB con <br> Dropbox
-                                        Transfert
+                                        <i class="fa-sharp fa-solid fa-check"></i>
+                                        Nessun limite di spazio per i file
                                     </li>
                                     <li>
-                                        <span class="check">&#10003;</span>
-                                        Invia file fino a 100 GB con Dropbox
-                                        Transfert
+                                        <i class="fa-sharp fa-solid fa-check"></i>
+                                        Cartelle offline per dispositivi mobili
+                                    </li>
+                                    <li>
+                                        <i class="fa-sharp fa-solid fa-check"></i>
+                                        Risparmio del 50% rispetto alle iscrizioni singole
+                                    </li>
+                                    <li>
+                                        <i class="fa-sharp fa-solid fa-check"></i>
+                                        Possibilita di inserire nuovi membri del team
+                                    </li>
+                                    <li>
+                                        <i class="fa-sharp fa-solid fa-check"></i>
+                                       Gestione dei permessi in base ai ruoli
                                     </li>
                                 </ul>
 
@@ -195,56 +208,56 @@
                         </div>
                         <div class="col-4">
                             <div class="head_col">
-                                <i class="fa-solid fa-user"></i>
-                                Singolo
+                                <i class="fa-solid fa-building"></i>
+                                Azienda
                             </div>
                             <div class="main_col">
-                                <h3>Professional</h3>
+                                <h3>Enterprise</h3>
                                 <div class="price">
-                                    € 12.00
+                                    Contattaci
                                 </div>
 
-                                <div class="period">/mese</div>
+                                <div class="period">-</div>
                                 <div class="info d-flex">
                                     <div>
                                         <i class="fa-solid fa-user"></i>
                                     </div>
-                                    <div>1 utente</div>
+                                    <div>10 o piu utenti</div>
                                 </div>
                                 <div class="info d-flex">
                                     <div>
                                         <i class="fa-solid fa-folder"></i>
                                     </div>
-                                    <div>5 TB di spazio di archiviazione <br>
-                                        sicuro</div>
+                                    <div>Soluzioni personalizzabili per la tua azienda</div>
                                 </div>
                                 <div class="info d-flex">
                                     <div>
                                         <i class="fa-solid fa-share-nodes"></i>
                                     </div>
-                                    <div>Funzioni di produttività premium e
-                                        condivisione file semplice e <br> sicura</div>
+                                    <div>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</div>
                                 </div>
                                 <div>
-                                    <a class="prova" href="#">Prova gratis per 30
-                                    giorni</a>
+                                    <a class="prova" href="#">Contattaci
+                                    </a>
                                 </div>
 
                                 <div class="buy">
                                     oppure <a href="#">acquista ora</a>
                                 </div>
-                                <hr>
+                                <div class="spacer"></div>
                                 <h4>Punti Salienti del piano</h4>
                                 <ul class="list-unstyled">
                                     <li>
-                                        <span class="check">&#10003;</span>
-                                        Invia file fino a 100 GB con <br> Dropbox
-                                        Transfert
+                                        <i class="fa-sharp fa-solid fa-check"></i>
+                                        Cartelle offline su dispositivi mobili
                                     </li>
                                     <li>
-                                        <span class="check">&#10003;</span>
-                                        Invia file fino a 100 GB con Dropbox
-                                        Transfert
+                                        <i class="fa-sharp fa-solid fa-check"></i>
+                                        Servizio assistenza 24/h
+                                    </li>
+                                    <li>
+                                        <i class="fa-sharp fa-solid fa-check"></i>
+                                        Possibilita di personalizzazione totale
                                     </li>
                                 </ul>
 
@@ -379,7 +392,71 @@
                     </div>
                 </div>
             </section>
+        <!--five section-->
+        <section class="questions">
+            <div class="content w-75 p-1">
+                <h3>Domande frequenti</h3>
+                <div class="questions-content">
+                    <div class="question d-flex">
+                        <p>Qual è la differenza tra Dropbox Business
+                            Standard e Dropbox Business Advanced?
+                        </p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="answere">
+                        <p>Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit.
+                            At distinctio tempore alias dolorum.
+                            Quibusdam consequatur voluptatibus
+                            aliquam, non atque numquam, quam
+                            itaque totam laboriosam iure cum!
+                            Laboriosam explicabo soluta debitis?</p>
+                    </div>
+                </div>
 
+                <div class="questions-content">
+                    <div class="question d-flex">
+                        <p>Qual è la differenza
+                            tra Dropbox Business Standard e Dropbox
+                            Business Advanced?
+                        </p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="answere">
+                        <p>Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit.
+                            At distinctio tempore alias dolorum.
+                            Quibusdam consequatur voluptatibus
+                            aliquam, non atque numquam, quam
+                            itaque totam laboriosam iure cum!
+                            Laboriosam explicabo soluta debitis?</p>
+                    </div>
+                </div>
+
+                <div class="question-content">
+                    <div class="question d-flex">
+                        <p>Qual è la differenza
+                            tra Dropbox Business Standard e Dropbox
+                            Business Advanced?
+                        </p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="answere">
+                        <p>Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit.
+                            At distinctio tempore alias dolorum.
+                            Quibusdam consequatur voluptatibus
+                            aliquam, non atque numquam, quam
+                            itaque totam laboriosam iure cum!
+                            Laboriosam explicabo soluta debitis?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--six section-->
 
         </main>
         <!--main-->
