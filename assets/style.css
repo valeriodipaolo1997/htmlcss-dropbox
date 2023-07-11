@@ -10,6 +10,10 @@
     display: flex;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 header a {
     text-decoration: none;
     color: rgb(110, 110, 110);
@@ -232,7 +236,19 @@ h3 {
  /*#endregion third*/
 
  /*#region four*/
-
  
-    
+ .operations {
+    padding-top: 5rem;
+ }
+
+ .card{
+    width: calc(100%/3);
+}
+.card>img{
+    width: 100%;
+}
+
+/*#endregion four*/
+
+
  
