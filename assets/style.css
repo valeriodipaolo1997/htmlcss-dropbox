@@ -236,9 +236,12 @@ h3 {
  /*#endregion third*/
 
  /*#region four*/
+
+
  
  .operations {
     padding-top: 5rem;
+    padding-bottom: 9rem;
  }
 
  .card{
@@ -248,7 +251,72 @@ h3 {
     width: 100%;
 }
 
+.card>h4 {
+    padding-left: 2rem;
+}
+
 /*#endregion four*/
 
+/*#region five*/
 
+.py-3 {
+    padding-left: 2rem;
+    padding-bottom: 7rem;
+}
+
+.clients{
+    width:calc(100%/3);
+    background-color: rgb(241, 240, 240);
+    
+}
+.clients>img{
+    width: 50%;
+    padding: 2.5rem 0;
+}
+.client{
+    width: calc(100%/2);
+    aspect-ratio: 1;
+    justify-content:center;
+    align-items: center;
+    
+}
+.client>img{
+    filter: invert(1);
+    width: 50%;
+    
+}
+.free_trial{
+    background-color: #b4d0e7;
+    
+}
+.free_trial>div{
+    justify-content: space-between;
+}
+
+
+.clients>img, p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.py-2>a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 13rem;
+    margin-top: 4.5rem;
+    height: 2rem;
+    width: 12rem;
+
+}
+
+
+.py-2>h3 {
+    color: rgb(124, 0, 48);
+    padding: 4rem 0;
+    padding-left: 10rem;
+    
+}
  
+/*#endregion five*/
