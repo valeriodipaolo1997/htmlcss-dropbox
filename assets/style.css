@@ -10,7 +10,7 @@
     display: flex;
 }
 
-a {
+header a {
     text-decoration: none;
     color: rgb(110, 110, 110);
     font-size: 12px;
@@ -27,6 +27,8 @@ body {
     margin: auto;
     width: 80%;
     padding: 1rem 0;
+    
+    
 }
 
 .list-unstyled {
@@ -55,7 +57,7 @@ nav {
 }
 
 .start {
-    background-color: blue;
+    background-color: #0160ff;
     color: white;
     padding: 0.5rem 1rem;
 }
@@ -85,6 +87,7 @@ nav {
 
 .col_big {
     width: 70%;
+    
 
 }
 
@@ -110,7 +113,8 @@ p, span {
     color: white;
     font-size: 13px;
     margin: 2rem 0;
-
+    text-decoration: none;
+    padding: 1rem;
 }
 
 /*#endregion first*/
@@ -120,15 +124,16 @@ p, span {
 
 h2 {
     text-align: left;
-    margin: 2rem;
-    font-size: 2rem;
+    margin: 2.5rem;
+    font-size: 2.5rem;
 }
+
 
 .col-4 {
     width: calc(100%/3);
     justify-content: center;
     border: 1px solid;
-    margin: 0 1.6rem;
+    margin: 0 1.2rem;
     
 }
 
@@ -146,6 +151,7 @@ h2 {
 
 h3 {
     font-size: 1.6rem;
+    padding: 1rem 0;
 }
 
 .period {
@@ -165,10 +171,68 @@ h3 {
     color: white;
     font-size: 13px;
     margin: 1.6rem 0;
-    padding: 1rem 1rem;
-    
+    padding: 0.8rem 2rem;
+    display: inline-block;
+   margin-left: 1rem;
+   text-decoration: none;
 }
 
 .buy {
-
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+ h4 {
+    padding: 2rem 0;
+ }
+
+ main ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+ }
+
+ li {
+    padding: 1rem 0;
+ }
+
+ .check {
+    color: #0160ff;
+    font-size: 1.2;
+ }
+
+ /*#endregion second*/
+
+ /*#region third*/
+
+ .partner {
+    object-fit: cover;
+    padding-left: 1rem;
+ }
+ .contact {
+    padding-right: 1rem;
+    margin-left: -5rem;
+    margin-top: 2rem;
+ }
+
+ .trova {
+    text-decoration: none;
+    border: 1px solid rgb(46, 45, 45);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.7rem;
+    margin-top: 2rem;
+    width: 160px;
+    text-align: center;
+ }
+
+ .third {
+    padding-top: 7rem;
+ }
+
+ /*#endregion third*/
+
+ /*#region four*/
+
+ 
+    
+ 
