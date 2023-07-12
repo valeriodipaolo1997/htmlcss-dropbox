@@ -81,6 +81,8 @@ h2{
     filter: brightness(150%);
 }
 
+
+
 /*#region header*/
 
 header {
@@ -206,7 +208,7 @@ input+input{
 .info_biz_plan{
     gap: 5px;
     align-items: flex-start;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
 }
 .info_biz_plan+.blue_btn{
     margin: 2rem 0;
