@@ -23,14 +23,14 @@ header a {
 }
 
 body {
-    font-family: Open sans;
+    font-family: Freedoka, sans-serif ;
 }
 
 .container {
     max-width: 1170px;
     margin: auto;
     width: 80%;
-    padding: 1rem 0;
+    padding: 3rem 0;
     
     
 }
@@ -39,13 +39,63 @@ body {
     list-style: none;
 }
 
+.p_xy{
+    padding: 6rem 3rem;
+}
+
+.pb_s{
+    padding-bottom: 0.9rem;
+}
+.p_x_s{
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+}
+
+.space_btw{
+    justify-content: space-between;
+}
+
+.jc_center{
+    justify-content: center;
+}
+
+.ai_center{
+    align-items: center;
+}
+
+h2{
+    font-size: 2.5rem;
+    padding: 3rem 0;
+}
+
+.blue_btn{
+    color: white;
+    background-color:  #0060fe;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.5s;
+}
+
+.blue_btn:hover{
+    filter: brightness(150%);
+}
 
 /*#region header*/
+
+header {
+    background-color: white;
+    position: sticky;
+    z-index: 99990;
+    top: 0;
+    left: 0;
+}
 
 nav {
     justify-content: center;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .logo {
@@ -60,10 +110,10 @@ nav {
     padding-right: 23rem;
 }
 
-.start {
-    background-color: #0160ff;
-    color: white;
-    padding: 0.5rem 1rem;
+
+
+header a:hover{
+    border-bottom: 1px solid black;
 }
 
 /*#endregion header*/
@@ -71,54 +121,33 @@ nav {
 /*#region first*/
 
 
-.introduction {
-    background-color: #b4d0e7;
-    height: 85vh;
-    margin-bottom: 3rem;
-
+h1{
+    font-size: xx-large;
+    padding-bottom: 2rem;
+    font-size: 3.5rem;
 }
-
-.p-1 {
-    margin: 0rem 10rem;
+.hero_image{
+    background-color:#b4d0e7 ;
+    height: 35rem;
 }
-
-.col_small {
-    width: 30%;
-    
-    display: flex;
-    flex-direction: column;
+.small_col{
+    width: 40%;
 }
-
-.col_big {
-    width: 70%;
-    
-
+.small_col>p{
+    padding-bottom: 2rem;
+    padding-left: 0;
 }
-
-.example {
-    width: 85%;
-    height: 100%;
-    object-fit: cover;
+.small_col>div{
+    padding-top: 2rem;
 }
-
-
-
-h1 {
-    font-size: 3.8rem;
-    padding: 2rem;
+#ancor{
+    transition: 1s;
 }
-
-p, span {
-    font-family: Arial, Helvetica, sans-serif;
+.big_col{
+    width: 60%;
 }
-
-.gratis {
-    background-color: #0160ff;
-    color: white;
-    font-size: 13px;
-    margin: 2rem 0;
-    text-decoration: none;
-    padding: 1rem;
+.hero_image>.container>.row>.big_col>img{
+    height: 23rem
 }
 
 /*#endregion first*/
@@ -126,127 +155,109 @@ p, span {
 
 /*#region second*/
 
-h2 {
-    text-align: left;
-    margin: 2.5rem;
-    font-size: 2.5rem;
-    
+input{
+    appearance: none;
+    border: 2px lightgray solid;
+    border-radius: 50%;
+    width: 1.15em;
+    height: 1.15em;
+    border-radius: 50%;
 }
-
-form {
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-    padding-left: 2rem;
+h2+input{
+    border: 4px solid #0060fe;
 }
-
-
-
-
-
-.col-4 {
-    width: calc(100%/3);
+input+input{
+    margin-left: 3rem;
+}
+.equal_col{
+    width: calc(100%/3 - 1rem);
     justify-content: center;
-    border: 1px solid rgba(49, 49, 49, 0.274);
-    margin: 0 1.2rem;
-    
+    margin-top: 3rem;
 }
-
-.head_col {
-    text-align: center;
-    border-bottom: 1px solid rgba(49, 49, 49, 0.274);;
-    padding: 1rem;
+.head_col{
+    justify-content: center;
+    padding: 0.5rem 0;
+    border: 1px solid lightgray;
+    border-bottom: none;
+    align-items: center;
+    gap: 5px;
 }
-
-.main_col {
-    padding-left: 1.5rem;
-    
+.main_col{
+    border: 1px solid lightgray;
+    padding: 1.8rem 1.5rem;
+    margin-bottom: 2rem;
 }
-
-
-h3 {
-    font-size: 1.6rem;
-    padding: 1rem 0;
+.card_col{
+    height: 100%;
+    height: 790px;
 }
-
-.period {
-    margin-bottom: 3rem;
-    font-family: Arial, Helvetica, sans-serif;
+.card_col>h3{
+    padding-bottom: 1rem;
 }
-
-.info {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0.7rem 0;
-    
+.price{
+    font-weight: 700;
+    padding-bottom: 0.6rem;
 }
-
-
-.prova {
-    background-color: #0160ff;
-    color: white;
-    font-size: 13px;
-    margin: 1.6rem 0;
-    padding: 0.8rem 2rem;
-    display: inline-block;
-   margin-left: 1rem;
-   text-decoration: none;
+.period{
+    font-weight: 100;
+    color: gray;
+    padding-bottom: 2.5rem;
 }
-
-.buy {
-    font-family: Arial, Helvetica, sans-serif;
+.info_biz_plan{
+    gap: 5px;
+    align-items: flex-start;
+    padding-bottom: 0.5rem;
 }
-
- h4 {
-    padding: 2rem 0;
- }
-
- main ul {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 1.5rem;
- }
-
- li {
-    padding: 1rem 0;
- }
-
- .spacer {
-    width: 20%;
-    border: 0.5px solid rgb(209, 207, 207);
+.info_biz_plan+.blue_btn{
     margin: 2rem 0;
 }
+.s_hr{
+    margin: 2.5rem 0;
+    width: 3rem;
+}
+hr+h4{
+    padding-bottom: 1rem;
+}
 
-.fa-check {
-    color: #0160ff;
+
+.large_col>.main_col>.d-flex{
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+.large_col>.main_col>.d-flex+div{
+    font-weight: 700;
+    padding-bottom: 3rem;
 }
  /*#endregion second*/
 
  /*#region third*/
 
- .partner {
-    object-fit: cover;
-    padding-left: 1rem;
- }
- .contact {
-    padding-right: 1rem;
-    margin-left: -5rem;
-    margin-top: 2rem;
- }
-
- .trova {
+ .third_section>.container>.row>.big_col>img{
+    width: 100%;
+}
+.third_section>.container>.row>.small_col{
+    padding-left: 2rem;
+    padding-top: 3rem;
+}
+.small_col>h3{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.white_btn{
+    color:  #000101;
+    background-color: #fdfdfd;
+    padding: 0.5rem 1rem;
     text-decoration: none;
-    border: 1px solid rgb(46, 45, 45);
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0.7rem;
-    margin-top: 2rem;
-    width: 160px;
-    text-align: center;
- }
-
- .third {
-    padding-top: 7rem;
- }
+    font-size: 0.9rem;
+    border: 1px solid  #000101;
+    transition: .5s;
+}
+.white_btn:hover{
+    color: #fefeff;
+    background-color: black;
+    border: 1px solid black;
+    
+}
 
  /*#endregion third*/
 
@@ -315,24 +326,34 @@ h3 {
     padding-right: 2rem;
 }
 
-.py-2>a {
-    background-color: white;
-    color: black;
+.white_btn_second{
+    color:  #000101;
+    background-color:  #fefeff;
+    padding: 0.5rem 1rem;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-right: 13rem;
-    margin-top: 4.5rem;
-    height: 2rem;
-    width: 12rem;
-
+    font-size: 0.9rem;
+    transition: .3s;
 }
 
 
-.py-2>h3 {
+.white_btn_second:hover{
+    color:  #fefeff;
+    background-color: black;
+    border: 1px solid black;
+}
+
+
+.bordeaux {
     color: rgb(124, 0, 48);
     padding: 4rem 0;
-    padding-left: 10rem;
+    padding-left: 8rem;
     
+}
+
+.c_hr {
+    width: 4rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
 }
  
 /*#endregion five*/
@@ -395,7 +416,14 @@ h3 {
     display: none;
 }
 
-/*#end region six*/
+.question {
+    border-bottom: 1px solid lightgray;
+    padding: 2rem 0;
+
+}
+
+
+/*#endregion six*/
 
 /*#region footer*/
 
