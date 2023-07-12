@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/*utilities*/
+/*#region utilities*/
 
 .d-flex {
     display: flex;
@@ -81,6 +81,7 @@ h2{
     filter: brightness(150%);
 }
 
+/*#endregion utilities*/
 
 
 /*#region header*/
@@ -274,13 +275,16 @@ hr+h4{
 
  .card{
     width: calc(100%/3);
+    padding-bottom: 3rem;
 }
 .card>img{
     width: 100%;
 }
 
 .card>h4 {
+    font-size: 1.3rem;
     padding-left: 2rem;
+    padding: 2rem 2rem;
 }
 
 /*#endregion four*/
@@ -289,6 +293,7 @@ hr+h4{
 
 
 .py-3 {
+    padding-top: 0;
     padding-left: 2rem;
     padding-bottom: 7rem;
 }
@@ -468,6 +473,6 @@ footer {
     font-weight: 400;
 }
 
-
+/*#endregion footer*/
 
 
